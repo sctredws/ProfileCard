@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ProfileCard/static/css/main.95b7907e.chunk.css",
+    "main.css": "/ProfileCard/static/css/main.37d478d5.chunk.css",
     "main.js": "/ProfileCard/static/js/main.2fb184e3.chunk.js",
     "main.js.map": "/ProfileCard/static/js/main.2fb184e3.chunk.js.map",
     "runtime-main.js": "/ProfileCard/static/js/runtime-main.462a908a.js",
@@ -10,14 +10,14 @@
     "static/js/3.654ddcf9.chunk.js": "/ProfileCard/static/js/3.654ddcf9.chunk.js",
     "static/js/3.654ddcf9.chunk.js.map": "/ProfileCard/static/js/3.654ddcf9.chunk.js.map",
     "index.html": "/ProfileCard/index.html",
-    "static/css/main.95b7907e.chunk.css.map": "/ProfileCard/static/css/main.95b7907e.chunk.css.map",
+    "static/css/main.37d478d5.chunk.css.map": "/ProfileCard/static/css/main.37d478d5.chunk.css.map",
     "static/js/2.498ca546.chunk.js.LICENSE.txt": "/ProfileCard/static/js/2.498ca546.chunk.js.LICENSE.txt",
     "static/media/wynault.c4bfb9f4.png": "/ProfileCard/static/media/wynault.c4bfb9f4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.462a908a.js",
     "static/js/2.498ca546.chunk.js",
-    "static/css/main.95b7907e.chunk.css",
+    "static/css/main.37d478d5.chunk.css",
     "static/js/main.2fb184e3.chunk.js"
   ]
 }
