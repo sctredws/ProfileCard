@@ -10,8 +10,9 @@ main {
   background-color: #D7D9F3;
   margin: auto;
   margin-top: 80px;
-  width: 30%;
-  height: 65vh; 
+  width: 40%;
+  height: 70vh; 
+  overflow: auto;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -32,11 +33,13 @@ main {
   padding: 10px 30px;
   font-size: 12pt;
   font-weight: bold;
-  margin: 20px;
+  margin: 10px 20px;
   border: none;
   border-radius: 15px;
 
 }
+
+
 
 
 .counter {
@@ -62,28 +65,30 @@ main {
 }
   
 .wynault {
+  
   width: 30%;
   height: auto;
   border-style: none;
   border-radius: 50%;
-  /* border-width: 5px;
-  border-color: midnightblue; */
   background-color: lightyellow;
 
 }
 
-@media (max-width: 400px) {
-  .main {
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 20px;
+}
 
-      width: 50%;
+  main {
+     width: 70%;
   }
 
 .buttons {
   
-  padding: 5px 15px;
-  font-size: 8pt;
+  padding: 5px 20px;
+  font-size: 10pt;
   font-weight: bold;
-  margin: 20px;
+  margin: 10px;
   border: none;
   border-radius: 15px;
 
@@ -101,8 +106,10 @@ main {
 
 }
 
-@media screen and (max-width: 400px) {
-  body {
-      font-size: 12px;
-  }
+@media screen and (max-width: 725px) {
+  main {
+    width: 70%;
+ }
 }
+
+

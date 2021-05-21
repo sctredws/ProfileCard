@@ -46,7 +46,9 @@ const element3 = <FontAwesomeIcon icon = {faHeart}/>
 
         <Display tech = {skills} />
 
-        <div className= "btn-grp"><button className = "buttons" onClick= {handleName}> Name </button><button className = "buttons" onClick = {handleSkills}>Skills</button> </div>
+        <div className= "btn-grp">
+          <div><button className = "buttons" onClick= {handleName}> Name </button><button className = "buttons" onClick = {handleSkills}>Skills</button></div> 
+          </div>
         <div className = "like"> {count} <button  className = "counter" onClick={() => setCount(count + 1)}> <FontAwesomeIcon icon = {faHeart}/> </button></div>
         <div><a href = "https://github.com/sctredws" target="_blank" rel="noopener noreferrer" > <FontAwesomeIcon icon={faGithubAlt} size="2x" style={{ color: "#f156bb"}} /> </a> </div>
 
